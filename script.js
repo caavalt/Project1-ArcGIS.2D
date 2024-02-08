@@ -61,13 +61,8 @@ require([
   var graphicsLayer = new GraphicsLayer();
   map.add(graphicsLayer);
 
-  // Define the popup template for markers
- 
-  // Add the legend to the view
   view.ui.add(legend, "bottom-right");
   
-  // Define polygon coordinates, title, and description
- // Define polygon coordinates
 const polygonCoordinates = [
         [-90.349949, 38.608216],
         [-90.349886, 38.608647],
